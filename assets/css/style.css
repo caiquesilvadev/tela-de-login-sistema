@@ -1,0 +1,53 @@
+/*body {
+    background-image: url('../img/bg-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}*/
+.bg-container {
+    background-image: url('../img/jpg-bg-fundo-tela-de-login.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+form a {
+    text-decoration: none;
+}
+
+input.form-control {
+    background-color: transparent;
+}
+
+.label-senha::before {
+    content: "Password";
+    font-size: 15px;
+}
+.label-senha {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+input[type="password"]::-ms-reveal {
+    display: none;
+}
+input[type="password"]::-webkit-credentials-auto-fill-button {
+    display: none;
+}
+.btn-primary {
+    background-color: #a57306 !important; /* Nova cor */
+    border-color: transparent !important;
+}
+
+.btn-primary:hover {
+    background-color:  #815901 !important;
+}
+
+a {
+    color:  #d39308 !important; /* Link padrão */
+}
+
+a:hover {
+    color:  #a57306 !important;
+}
+
+
