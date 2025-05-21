@@ -4,15 +4,31 @@
     background-position: center;
     background-repeat: no-repeat;
 }*/
+:root {
+  --text-white: #dbdbdb; /* Define um branco mais suave */
+}
+label.text-white {
+    color:var(--text-white) !important;
+}
 .bg-container {
     background-image: url('../img/jpg-bg-fundo-tela-de-login.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;    
 }
+form > p {
+    color: var(--text-white) !important;
+}
 form a {
     text-decoration: none;
 }
+.form-control:focus {
+  background-color: transparent !important; /* Fundo escuro */
+  border-color: #FFD700 !important; /* Borda dourada */
+  color: #fff !important; /* Altera a cor do curso de texto | Barra de inserção */
+  box-shadow: none !important; /* Remove o efeito de sombra */
+}
+
 
 input.form-control {
     background-color: transparent;
@@ -27,6 +43,7 @@ input.form-control {
     align-items: center;
     font-size: 15px;
 }
+
 input[type="password"]::-ms-reveal {
     display: none;
 }
